@@ -6,7 +6,7 @@ Fk:loadTranslationTable {
 local extension = Package:new("Shiki")
 extension.extensionName = "sakisakura"
 -- 定义武将的名称，势力，血量，性别
-local Kamiyama_Shiki = General(extension, "ki_god_Shiki", "god", 3, 5, General.Female)
+local Kamiyama_Shiki = General(extension, "ki_god_Shiki", "ki_key", 3, 5, General.Female)
 
 -- 定义技能
 local ki_bat = fk.CreateActiveSkill {
